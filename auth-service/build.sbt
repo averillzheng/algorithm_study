@@ -2,7 +2,7 @@ val akkaHttpV = "10.1.1"
 val akkaV = "2.5.12"
 
 dependsOn(
-  LocalProject("auth-lib")
+  LocalProject("auth-common")
 )
 
 libraryDependencies ++= Seq(
